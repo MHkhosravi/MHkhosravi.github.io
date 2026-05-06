@@ -1,0 +1,4 @@
+.claude/
+.remember/
+.playwright-mcp/
+*.log

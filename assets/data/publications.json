@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Automatic Phase Picking of Microseismic Data based on PhaseNet: A Case Study of the TOC2ME Dataset",
+    "authors": ["Khosravi, M.H.", "Liu, Q.", "Grasselli, G."],
+    "venue": "GeoConvention 2025",
+    "type": "conference",
+    "year": 2025,
+    "doi": null,
+    "url": null
+  },
+  {
+    "title": "Decarbonizing remote communities in Canada: A Case Study of Tu Deh-Kah geothermal project, Fort Nelson, BC",
+    "authors": ["Abdallah, A.", "Komaromi, L.", "Khosravi, M.H.", "Sedghizadeh, M."],
+    "venue": "GeoConvention 2024",
+    "type": "conference",
+    "year": 2024,
+    "doi": null,
+    "url": null
+  },
+  {
+    "title": "Effects of diagenetic processes on the velocity evolution in carbonate reservoirs",
+    "authors": ["Khosravi, M.H.", "Emami Niri, M.", "Saberi, M.R."],
+    "venue": "Geomechanics and Geophysics for Geo-Energy and Geo-Resources",
+    "type": "journal",
+    "year": 2023,
+    "doi": "10.1007/s40948-023-00683-4",
+    "url": "https://doi.org/10.1007/s40948-023-00683-4"
+  },
+  {
+    "title": "Physico-chemo-mechanical impact of sc-CO₂ on shale formations: The Bakken",
+    "authors": ["Khosravi, M.H.", "Kheirollahi, M.", "Liu, B.", "Gentzis, T.", "Liu, K.", "Morta, H.B.", "Ostadhassan, M."],
+    "venue": "Journal of Natural Gas Science and Engineering",
+    "type": "journal",
+    "year": 2023,
+    "doi": "10.1016/j.jgsce.2023.204945",
+    "url": "https://doi.org/10.1016/j.jgsce.2023.204945"
+  },
+  {
+    "title": "Investigating the effects of reservoir properties and diagenetic features on carbonates velocity variations: A case study",
+    "authors": ["Khosravi, M.H.", "Saberi, M.R.", "Emami Niri, M."],
+    "venue": "83rd EAGE Annual Conference & Exhibition",
+    "type": "conference",
+    "year": 2022,
+    "doi": "10.3997/2214-4609.202210186",
+    "url": "https://doi.org/10.3997/2214-4609.202210186"
+  }
+]

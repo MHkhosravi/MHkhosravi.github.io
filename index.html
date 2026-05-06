@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Mohammad Hossein Khosravi | Geophysics, Seismology, and Machine Learning</title>
+  <meta name="description"
+    content="Personal website of Mohammad Hossein Khosravi, PhD Candidate in Geophysics and Seismology at the University of Toronto, working on machine learning, microseismic monitoring, seismic phase picking, induced seismicity, rock physics, and high-performance scientific computing.">
+  <meta name="keywords"
+    content="Mohammad Hossein Khosravi, Ramin Khosravi, geophysics, seismology, machine learning, microseismic monitoring, induced seismicity, phase picking, rock physics, seismic inversion, University of Toronto">
+
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:wght@500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <link href="assets/css/main.css" rel="stylesheet">
+  <script>
+    (function () {
+      var t = localStorage.getItem('theme');
+      if (t === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+    })();
+  </script>
+</head>
+
+<body class="index-page">
+
+  <button class="mobile-menu-toggle" type="button" aria-label="Toggle navigation" aria-controls="header"
+    aria-expanded="false">
+    <i class="bi bi-list" aria-hidden="true"></i>
+  </button>
+
+  <header id="header" class="header d-flex flex-column">
+
+    <div class="profile-img">
+      <img src="assets/img/profile.png" alt="Portrait of Mohammad Hossein Khosravi" class="img-fluid rounded-circle">
+    </div>
+
+    <a href="#hero" class="logo d-flex flex-column align-items-center justify-content-center text-center">
+      <h1 class="sitename">M.H. Khosravi</h1>
+      <span>Ramin</span>
+    </a>
+
+    <div class="social-links text-center" aria-label="Academic and professional profiles">
+      <a href="https://scholar.google.com/citations?user=fKatykwAAAAJ&hl=en" target="_blank" rel="noopener"
+        aria-label="Google Scholar profile"><i class="bi bi-mortarboard-fill"></i></a>
+      <a href="https://github.com/MHkhosravi" target="_blank" rel="noopener" aria-label="GitHub profile"><i
+          class="bi bi-github"></i></a>
+      <a href="https://ca.linkedin.com/in/mohammadhoseinkhosravi" target="_blank" rel="noopener"
+        aria-label="LinkedIn profile"><i class="bi bi-linkedin"></i></a>
+      <a href="https://orcid.org/0000-0002-3595-6470" target="_blank" rel="noopener" aria-label="ORCID profile"><i
+          class="bi bi-person-vcard"></i></a>
+      <a href="https://www.researchgate.net/profile/Mohammad-Hossein-Khosravi-4" target="_blank" rel="noopener"
+        aria-label="ResearchGate profile"><i class="bi bi-journal-text"></i></a>
+    </div>
+
+    <nav id="navmenu" class="navmenu" aria-label="Main navigation">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i>About</a></li>
+        <li><a href="#research"><i class="bi bi-activity navicon"></i>Research</a></li>
+        <li><a href="#projects"><i class="bi bi-layers navicon"></i>Projects</a></li>
+        <li><a href="#outputs"><i class="bi bi-journal-richtext navicon"></i>Outputs</a></li>
+        <li><a href="#skills"><i class="bi bi-tools navicon"></i>Skills</a></li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i>Contact</a></li>
+      </ul>
+    </nav>
+
+    <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode" aria-pressed="false">
+      <i class="bi bi-sun-fill ti-icon" id="theme-icon" aria-hidden="true"></i>
+      <span class="ti-label" id="theme-label">Dark Mode</span>
+      <span class="ti-track" aria-hidden="true"><span class="ti-thumb"></span></span>
+    </button>
+  </header>
+
+  <main class="main">
+
+    <section id="hero" class="hero section dark-section">
+      <img src="assets/img/background.png" alt="Layered mountain landscape representing geoscience field research"
+        class="hero-bg">
+      <div class="hero-overlay"></div>
+
+      <div class="container">
+        <p class="eyebrow">PhD Candidate in Geophysics and Seismology</p>
+        <h2>Mohammad Hossein Khosravi</h2>
+        <p class="preferred-name">Ramin · University of Toronto</p>
+        <p class="typed-line">
+          <span class="typed"
+            data-typed-items="Geophysicist,Seismology Researcher,Machine Learning for Seismic Data,Microseismic Monitoring,Rock Physics and Seismic Inversion">Geophysicist</span>
+        </p>
+        <p class="hero-subtitle">
+          I develop machine-learning and high-performance computing workflows for microseismic monitoring, seismic event
+          detection, phase picking, and subsurface characterization.
+        </p>
+        <div class="hero-actions" aria-label="Primary links">
+          <a class="btn btn-primary" href="#research"><i class="bi bi-activity"></i> Research</a>
+          <a class="btn btn-outline-light" href="#projects"><i class="bi bi-layers"></i> Projects</a>
+          <a class="btn btn-outline-light" href="https://scholar.google.com/citations?user=fKatykwAAAAJ&hl=en"
+            target="_blank" rel="noopener"><i class="bi bi-mortarboard-fill"></i> Google Scholar</a>
+          <a class="btn btn-outline-light" href="https://github.com/MHkhosravi" target="_blank" rel="noopener"><i
+              class="bi bi-github"></i> GitHub</a>
+          <a class="btn btn-outline-light" href="#contact"><i class="bi bi-envelope"></i> Contact</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about section">
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <span>About</span>
+          <h2>Research Profile</h2>
+        </div>
+
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <figure class="portrait-frame">
+              <img src="assets/img/profile.png" class="img-fluid"
+                alt="Professional portrait of Mohammad Hossein Khosravi">
+            </figure>
+          </div>
+
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="160">
+            <div class="intro-panel">
+              <p>
+                I am a PhD Candidate in Geophysics and Seismology at the University of Toronto. My research focuses on
+                applying machine learning and deep learning to microseismic monitoring, especially seismic event
+                detection, phase picking, phase association, and hypocenter localization.
+              </p>
+              <p>
+                My background combines geophysics, petroleum exploration engineering, rock physics, seismic inversion,
+                and scientific computing. I work with large seismic datasets and build scalable workflows using Python,
+                deep-learning frameworks, seismological tools, and high-performance computing systems.
+              </p>
+              <div class="contact-facts">
+                <span><i class="bi bi-building"></i> University of Toronto</span>
+                <span><i class="bi bi-geo-alt"></i> Toronto, Canada</span>
+                <a href="mailto:mh.khosravi@mail.utoronto.ca"><i class="bi bi-envelope"></i>
+                  mh.khosravi@mail.utoronto.ca</a>
+              </div>
+              <div class="link-row">
+                <a href="https://scholar.google.com/citations?user=fKatykwAAAAJ&hl=en" target="_blank" rel="noopener">
+                  <i class="bi bi-mortarboard-fill"></i> Google Scholar
+                </a>
+                <a href="https://github.com/MHkhosravi" target="_blank" rel="noopener"><i class="bi bi-github"></i>
+                  GitHub</a>
+                <a href="https://ca.linkedin.com/in/mohammadhoseinkhosravi" target="_blank" rel="noopener"><i
+                    class="bi bi-linkedin"></i> LinkedIn</a>
+                <a href="https://orcid.org/0000-0002-3595-6470" target="_blank" rel="noopener"><i
+                    class="bi bi-person-vcard"></i> ORCID</a>
+                <a href="https://www.researchgate.net/profile/Mohammad-Hossein-Khosravi-4" target="_blank"
+                  rel="noopener"><i class="bi bi-journal-text"></i> ResearchGate</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="research" class="research section light-section">
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <span>Research</span>
+          <h2>Main Areas</h2>
+          <p>Focused themes across seismology, machine learning, subsurface characterization, and scientific computing.</p>
+        </div>
+
+        <div class="row gy-4">
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="80">
+            <article class="feature-card">
+              <i class="bi bi-cpu"></i>
+              <h3>Machine Learning for Seismology</h3>
+              <p>Deep-learning models for seismic event detection, phase picking, and scientific time-series analysis.</p>
+            </article>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="140">
+            <article class="feature-card">
+              <i class="bi bi-activity"></i>
+              <h3>Microseismic Monitoring and Induced Seismicity</h3>
+              <p>Automated workflows for weak-event detection, phase association, location, catalog construction, and
+                induced-seismicity analysis.</p>
+            </article>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <article class="feature-card">
+              <i class="bi bi-layers"></i>
+              <h3>Rock Physics and Seismic Inversion</h3>
+              <p>Rock physics, seismic inversion, AVO analysis, and reservoir characterization.</p>
+            </article>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="260">
+            <article class="feature-card">
+              <i class="bi bi-server"></i>
+              <h3>High-Performance Scientific Computing</h3>
+              <p>Scalable seismic workflows using Python, Linux, SLURM, Singularity, and Compute Canada clusters.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects section">
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <span>Selected Projects</span>
+          <h2>Current Work</h2>
+        </div>
+
+        <div class="row gy-4">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="80">
+            <article class="project-card">
+              <div class="project-icon"><i class="bi bi-diagram-3"></i></div>
+              <h3>AI-Based Microseismic Monitoring Workflow</h3>
+              <p>An end-to-end workflow for seismic event detection, phase picking, association, and localization using
+                deep-learning models and seismological processing tools.</p>
+              <div class="tag-list">
+                <span>PhaseNet</span><span>EQTransformer</span><span>SeisBench</span><span>REAL</span><span>NonLinLoc</span><span>ObsPy</span><span>Python</span>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="160">
+            <article class="project-card">
+              <div class="project-icon"><i class="bi bi-soundwave"></i></div>
+              <h3>Deep Learning for Phase Picking</h3>
+              <p>Application and adaptation of deep-learning models for automatic P- and S-wave arrival picking in local
+                microseismic datasets.</p>
+              <div class="tag-list">
+                <span>Deep Learning</span><span>Phase Picking</span><span>Microseismic Data</span><span>Time Series</span>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="outputs" class="outputs section light-section">
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <span>Research Outputs</span>
+          <h2>Publications</h2>
+          <p>Journal articles and conference contributions on induced seismicity, microseismic monitoring, deep learning for seismic data, rock physics, and seismic inversion.</p>
+        </div>
+
+        <div class="pub-toolbar" data-aos="fade-up" data-aos-delay="60">
+          <div class="pub-filters" role="group" aria-label="Filter publications by year">
+            <button class="pub-filter active" data-year="all">All</button>
+            <button class="pub-filter" data-year="2025">2025</button>
+            <button class="pub-filter" data-year="2024">2024</button>
+            <button class="pub-filter" data-year="2023">2023</button>
+            <button class="pub-filter" data-year="2022">2022</button>
+          </div>
+          <span class="pub-count" id="pub-count"></span>
+        </div>
+
+        <div id="publication-list" class="pub-list" data-aos="fade-up" data-aos-delay="120"></div>
+
+        <div class="pub-profiles" data-aos="fade-up" data-aos-delay="160">
+          <a href="https://scholar.google.com/citations?user=fKatykwAAAAJ&hl=en" target="_blank" rel="noopener">
+            <i class="bi bi-mortarboard-fill"></i> Google Scholar
+          </a>
+          <a href="https://www.researchgate.net/profile/Mohammad-Hossein-Khosravi-4" target="_blank" rel="noopener">
+            <i class="bi bi-journal-text"></i> ResearchGate
+          </a>
+          <a href="https://orcid.org/0000-0002-3595-6470" target="_blank" rel="noopener">
+            <i class="bi bi-person-vcard"></i> ORCID
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills section">
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <span>Skills</span>
+          <h2>Technical Toolkit</h2>
+          <p>Grouped capabilities for seismic research, data science, and scalable scientific computing.</p>
+        </div>
+
+        <div class="row gy-4">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="80">
+            <div class="skill-card">
+              <h3><i class="bi bi-code-slash"></i> Programming and Data Science</h3>
+              <div class="tag-list"><span>Python</span><span>MATLAB</span><span>Bash</span><span>NumPy</span><span>Pandas</span><span>SciPy</span><span>Matplotlib</span><span>scikit-learn</span></div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="120">
+            <div class="skill-card">
+              <h3><i class="bi bi-cpu"></i> Machine Learning</h3>
+              <div class="tag-list"><span>PyTorch</span><span>TensorFlow</span><span>Keras</span><span>Deep Learning</span><span>Model Evaluation</span><span>Time-Series Analysis</span></div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="160">
+            <div class="skill-card">
+              <h3><i class="bi bi-activity"></i> Seismology</h3>
+              <div class="tag-list"><span>ObsPy</span><span>SeisBench</span><span>segyio</span><span>NonLinLoc</span><span>Template Matching</span></div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="skill-card">
+              <h3><i class="bi bi-layers"></i> Geophysics and Rock Physics</h3>
+              <div class="tag-list"><span>Rock Physics</span><span>Seismic Inversion</span><span>AVO Analysis</span><span>Petrel</span><span>Hampson-Russell</span><span>RokDoc</span></div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="240">
+            <div class="skill-card">
+              <h3><i class="bi bi-server"></i> HPC and Tools</h3>
+              <div class="tag-list"><span>Linux</span><span>Git</span><span>GitHub</span><span>SLURM</span><span>Singularity</span><span>Compute Canada</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="contact" class="contact section">
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <span>Contact</span>
+          <h2>Get in Touch</h2>
+          <p>I am open to research collaboration, academic discussion, and opportunities involving machine learning for
+            geophysics and seismic data.</p>
+        </div>
+
+        <div class="contact-panel" data-aos="fade-up" data-aos-delay="100">
+          <div>
+            <h3>Mohammad Hossein Khosravi</h3>
+            <p>PhD Candidate in Geophysics and Seismology · University of Toronto</p>
+            <div class="contact-facts">
+              <a href="mailto:mh.khosravi@mail.utoronto.ca"><i class="bi bi-envelope"></i>
+                mh.khosravi@mail.utoronto.ca</a>
+              <span><i class="bi bi-geo-alt"></i> Toronto, Canada</span>
+            </div>
+          </div>
+
+          <div class="link-row contact-links">
+            <a href="https://ca.linkedin.com/in/mohammadhoseinkhosravi" target="_blank" rel="noopener"><i
+                class="bi bi-linkedin"></i> LinkedIn</a>
+            <a href="https://scholar.google.com/citations?user=fKatykwAAAAJ&hl=en" target="_blank" rel="noopener"><i
+                class="bi bi-mortarboard-fill"></i> Google Scholar</a>
+            <a href="https://github.com/MHkhosravi" target="_blank" rel="noopener"><i class="bi bi-github"></i>
+              GitHub</a>
+            <a href="https://orcid.org/0000-0002-3595-6470" target="_blank" rel="noopener"><i
+                class="bi bi-person-vcard"></i> ORCID</a>
+            <a href="https://www.researchgate.net/profile/Mohammad-Hossein-Khosravi-4" target="_blank"
+              rel="noopener"><i class="bi bi-journal-text"></i> ResearchGate</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="footer" class="footer">
+    <div class="container">
+      <p>&copy; 2026 Mohammad Hossein Khosravi</p>
+    </div>
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"
+    aria-label="Back to top"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <script type="application/json" id="pub-data">[
+    {"title":"Automatic Phase Picking of Microseismic Data based on PhaseNet: A Case Study of the TOC2ME Dataset","authors":["Khosravi, M.H.","Liu, Q.","Grasselli, G."],"venue":"GeoConvention 2025","type":"conference","year":2025,"doi":null,"url":null},
+    {"title":"Decarbonizing remote communities in Canada: A Case Study of Tu Deh-Kah geothermal project, Fort Nelson, BC","authors":["Abdallah, A.","Komaromi, L.","Khosravi, M.H.","Sedghizadeh, M."],"venue":"GeoConvention 2024","type":"conference","year":2024,"doi":null,"url":null},
+    {"title":"Effects of diagenetic processes on the velocity evolution in carbonate reservoirs","authors":["Khosravi, M.H.","Emami Niri, M.","Saberi, M.R."],"venue":"Geomechanics and Geophysics for Geo-Energy and Geo-Resources","type":"journal","year":2023,"doi":"10.1007/s40948-023-00683-4","url":"https://doi.org/10.1007/s40948-023-00683-4"},
+    {"title":"Physico-chemo-mechanical impact of sc-CO₂ on shale formations: The Bakken","authors":["Khosravi, M.H.","Kheirollahi, M.","Liu, B.","Gentzis, T.","Liu, K.","Morta, H.B.","Ostadhassan, M."],"venue":"Journal of Natural Gas Science and Engineering","type":"journal","year":2023,"doi":"10.1016/j.jgsce.2023.204945","url":"https://doi.org/10.1016/j.jgsce.2023.204945"},
+    {"title":"Investigating the effects of reservoir properties and diagenetic features on carbonates velocity variations: A case study","authors":["Khosravi, M.H.","Saberi, M.R.","Emami Niri, M."],"venue":"83rd EAGE Annual Conference &amp; Exhibition","type":"conference","year":2022,"doi":"10.3997/2214-4609.202210186","url":"https://doi.org/10.3997/2214-4609.202210186"}
+  ]</script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
