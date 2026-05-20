@@ -1,12 +1,52 @@
 [
   {
+    "title": "Machine Learning–Based Automatic Microseismic Event Detection During the 17 August 2015 Mw 4.6 Induced Earthquake Sequence in Northern Montney, British Columbia, Canada",
+    "authors": ["Khosravi, M.H.", "Korolev, A.", "Ding, L.", "de Boer, T.", "Yang, G.", "Kravchinsky, E.", "Lui, S.K.Y.", "Grasselli, G.", "Liu, Q."],
+    "venue": "Bulletin of the Seismological Society of America",
+    "type": "journal",
+    "year": 2026,
+    "doi": "10.1785/0120250263",
+    "url": "https://doi.org/10.1785/0120250263"
+  },
+  {
+    "title": "Full Moment Tensor Inversions of Microseismic Events Revealing Fault Activation of the 17 August 2015 Earthquake in the Northern Montney Formation, British Columbia, Canada",
+    "authors": ["Ding, L.", "de Boer, T.", "Khosravi, M.H.", "Yang, G.", "Kravchinsky, E.", "Lui, S.K.Y.", "Grasselli, G.", "Liu, Q."],
+    "venue": "Bulletin of the Seismological Society of America",
+    "type": "journal",
+    "year": 2026,
+    "doi": "10.1785/0120250267",
+    "url": "https://doi.org/10.1785/0120250267"
+  },
+  {
+    "title": "Building High-Precision Microseismic Training Sets Using Automated Multi-Model Consensus Labeling: Application to PhaseNet and EQTransformer",
+    "authors": ["Khosravi, M.H.", "Liu, Q.", "Grasselli, G."],
+    "venue": "GeoConvention 2026",
+    "type": "conference",
+    "year": 2026,
+    "doi": null,
+    "url": "https://geoconvention.com/wp-content/uploads/abstracts/2026/127623-enhancing-microseismic-monitoring-fine-t.pdf",
+    "linkLabel": "View abstract"
+  },
+  {
+    "title": "Improving Microseismic Event Detection, Phase Picking, and Moment Tensor Inversion Using a Fine-Tuned PhaseNet Model",
+    "authors": ["Khosravi, M.H.", "Liu, Q.", "Grasselli, G."],
+    "venue": "AGU Fall Meeting 2025",
+    "type": "conference",
+    "year": 2025,
+    "doi": null,
+    "url": "https://agu.confex.com/agu/agu25/meetingapp.cgi/Paper/1894038",
+    "linkLabel": "View abstract"
+  },
+  {
     "title": "Automatic Phase Picking of Microseismic Data based on PhaseNet: A Case Study of the TOC2ME Dataset",
     "authors": ["Khosravi, M.H.", "Liu, Q.", "Grasselli, G."],
     "venue": "GeoConvention 2025",
     "type": "conference",
     "year": 2025,
     "doi": null,
-    "url": null
+    "url": "https://geoconvention.com/wp-content/uploads/abstracts/2025/114658-automatic-phase-picking-of-microseismic.pdf",
+    "linkLabel": "View abstract",
+    "note": "Best Student Poster Award, GeoConvention 2025"
   },
   {
     "title": "Decarbonizing remote communities in Canada: A Case Study of Tu Deh-Kah geothermal project, Fort Nelson, BC",
@@ -15,7 +55,8 @@
     "type": "conference",
     "year": 2024,
     "doi": null,
-    "url": null
+    "url": "https://geoconvention.com/wp-content/uploads/abstracts/2024/102710-decarbonizing-remote-communities-in-canada_-a-case.pdf",
+    "linkLabel": "View abstract"
   },
   {
     "title": "Effects of diagenetic processes on the velocity evolution in carbonate reservoirs",

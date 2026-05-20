@@ -155,9 +155,12 @@
             ? `<div class="pub-links">
                 <a href="${p.url}" target="_blank" rel="noopener">
                   <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>
-                  ${p.doi ? "DOI: " + p.doi : "View paper"}
+                  ${p.doi ? "DOI: " + p.doi : p.linkLabel || "View paper"}
                 </a>
                </div>`
+            : "";
+          const noteHtml = p.note
+            ? `<p class="pub-note"><i class="bi bi-award" aria-hidden="true"></i>${p.note}</p>`
             : "";
 
           return `<article class="pub-item">
@@ -168,6 +171,7 @@
             <h3 class="pub-title">${p.title}</h3>
             <p class="pub-authors">${authorHtml(p.authors)}</p>
             <p class="pub-venue">${p.venue}</p>
+            ${noteHtml}
             ${linkHtml}
           </article>`;
         })

@@ -875,6 +875,24 @@ p {
   font-style: italic;
 }
 
+.pub-note {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0 0 14px;
+  padding: 0.24rem 0.58rem;
+  color: #7a4f1a;
+  background: #fdf0e2;
+  border-radius: 6px;
+  font-size: 0.83rem;
+  font-weight: 700;
+}
+
+[data-theme="dark"] .pub-note {
+  color: #f0b36a;
+  background: rgba(165, 99, 54, 0.2);
+}
+
 .pub-links {
   display: flex;
   flex-wrap: wrap;
