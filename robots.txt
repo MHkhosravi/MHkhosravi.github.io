@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mhkhosravi.github.io/sitemap.xml
