@@ -79,9 +79,12 @@
       new Typed(".typed", {
         strings: typedItems.split(",").map((item) => item.trim()),
         loop: true,
-        typeSpeed: 72,
-        backSpeed: 36,
-        backDelay: 1800
+        typeSpeed: 96,
+        backSpeed: 42,
+        backDelay: 2600,
+        startDelay: 600,
+        smartBackspace: true,
+        showCursor: false
       });
     }
   }
